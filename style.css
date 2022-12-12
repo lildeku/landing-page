@@ -1,0 +1,19 @@
+.div-1 {
+    display: flex;
+    background-color: magenta;
+    flex-direction: row;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div-2 {
+
+    background-color: navy;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
