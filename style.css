@@ -13,8 +13,8 @@
 
 .container {
     display: flex;
-    column-gap: 10px;
-    padding-left: 350px;
+    column-gap: 25px;
+    /*padding-left: 350px;*/
 }
 
 .pair1 {
@@ -51,12 +51,15 @@
     flex-direction: column;
 }
 
-.image {
-    display: flex;
-    padding-left: 200px;
-    padding-bottom: -50px;
-    height: 150px;
-    column-gap: 10px;
-} 
+.quote {
+   /* display: flex; */
+    background-color: lightgray;
+    padding: 100px;
+}
 
+.quote-head {
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100ox;
 
+}
