@@ -1,11 +1,45 @@
+
+/*
 .div-1 {
     display: flex;
     background-color: white;
     flex-direction: row;
-    padding-right: 300px;
-    padding-left: 300px;
-    /* padding-top: 50px; */
+    column-gap: 10px;
+    padding-right: 225px;
+    padding-left: 225px; 
+    /* padding-top: 50px; 
     padding-bottom: 50px;
+} */
+
+.container {
+    display: flex;
+    column-gap: 10px;
+    padding-left: 350px;
+}
+
+.pair1 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+   /* padding-left: 100px;*/
+}
+
+.pair2 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.pair3 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.pair4 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
 }
 
 .div-2 {
@@ -24,4 +58,5 @@
     height: 150px;
     column-gap: 10px;
 } 
+
 
